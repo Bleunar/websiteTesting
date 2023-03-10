@@ -5,8 +5,7 @@
 }
 body{
     background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat-y;
 }
 .back{
 }
@@ -19,14 +18,14 @@ nav{
     width: 99%;
     height: fit-content;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: rgba(255, 255, 255, 0.459);
     border-radius: 10px;
     z-index: +1;
 }
 .webNameLogo{
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
     position: relative;
 }
 .webNameLogo a, h1{
@@ -50,13 +49,13 @@ nav{
 .head1{
     position: relative;
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     height: 100%;
     padding-left: 50px;
     z-index: 0;
 }
 .riseHigh{
-    font-size: 80px;
+    font-size: 69px;
     text-shadow: -1px 0 rgb(0, 0, 0), 3px 3px yellow, 6px 6px goldenrod, 9px 9px rgb(255, 196, 0);
     font-family: sans; color: rgb(0, 0, 0) ;
 }
@@ -72,15 +71,13 @@ nav{
 
 
 .divHead{
-    position: relative;
     background-color: rgba(255, 255, 255, 0.082);
-    display: flex;
-    justify-content: center;
+    
 }
 .head{
-    position: relative;
-    width: auto;
+    padding: 10px;
     background-color: burlywood;
+    border-radius: 10px;
 }
 .card{
     position: relative;
