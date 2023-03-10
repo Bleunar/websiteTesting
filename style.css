@@ -1,0 +1,104 @@
+:root{
+}
+.e{
+    border: 2px solid red;
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.back{
+}
+.divNav{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+nav{
+    width: 99%;
+    height: fit-content;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
+    z-index: +1;
+}
+.webNameLogo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+}
+.webNameLogo a, h1{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 1px black;
+    padding-left: 10px;
+}
+.webOpt{
+    position: absolute;
+    right: 0%;
+    width: fit-content;
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+.webOpt a{
+    padding-left: 50px;
+}
+
+.head1{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    height: 100%;
+    padding-left: 50px;
+    z-index: 0;
+}
+.riseHigh{
+    font-size: 80px;
+    text-shadow: -1px 0 rgb(0, 0, 0), 3px 3px yellow, 6px 6px goldenrod, 9px 9px rgb(255, 196, 0);
+    font-family: sans; color: rgb(0, 0, 0) ;
+}
+.butt{
+    margin-left: 5%;
+    font-size: 40px;
+    color: black;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: -1px 0 rgb(0, 0, 0), 3px 3px yellow, 6px 6px goldenrod, 9px 9px rgb(255, 196, 0);
+}
+
+
+.divHead{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.082);
+    display: flex;
+    justify-content: center;
+}
+.head{
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+}
+.card{
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 217, 0, 0.699);
+    border: 4px solid goldenrod;
+    border-radius: 10px;
+}
+.card h4, p{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.imag{
+    border: 2px solid black;
+    margin: 20px;
+}
+.imgSet{
+    display: flex;
+    justify-content: center;
+}
